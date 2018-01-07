@@ -1,0 +1,134 @@
+@media (min-width: 576px) {
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 250px; }
+  .carousel-item {
+    height: 250px; } }
+
+@font-face {
+  font-family: ralway-thin;
+  src: url("../fonts/Raleway/Raleway-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: raleway-light;
+  src: url("../fonts/Raleway/Raleway-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: raleway-medium;
+  src: url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype"); }
+
+.thin-font {
+  font-family: raleway-medium; }
+
+#wrapper-showcase {
+  margin-top: 60px; }
+
+body {
+  background-color: #333;
+  color: grey; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 550px; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-image-1 {
+  background: url("../img/gift2.jpeg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.carousel-image-2 {
+  background: url("../img/security.jpeg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.carousel-image-3 {
+  background: url("../img/contact.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.carousel-inner {
+  font-family: raleway-medium;
+  color: white; }
+  .carousel-inner .prelaunch-content .fa {
+    color: #008ed6;
+    font-size: 23px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 25px; }
+  .carousel-inner .prelaunch-content p {
+    font-size: 20px;
+    margin-top: 15px; }
+  .carousel-inner .prelaunch-content .know-more-button {
+    border-radius: 10px;
+    border: 3px solid;
+    font-weight: bold; }
+
+.fa {
+  font-size: 100px;
+  color: black; }
+
+.fa.fa-android {
+  color: greenyellow; }
+
+.fa.fa-html5 {
+  color: orange; }
+
+.fa.fa-linux {
+  color: darkblue; }
+
+#social-icon .fa {
+  font-size: 50px; }
+
+.copyright .fa {
+  font-size: 15px; }
+
+footer {
+  height: 100px; }
+
+.content-inner {
+  border: 1px solid white; }
+
+.card {
+  border-radius: 10px; }
+
+.card-block .form {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px; }
+
+.offer-content {
+  margin-top: 60px; }
+  .offer-content .fa {
+    color: #008ed6;
+    font-size: 20px;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 7px; }
+  .offer-content p {
+    font-size: 20px; }
+
+body.admin-body {
+  background-color: white;
+  color: dimgrey; }
+
+.login-area {
+  width: 300px;
+  margin: 0px auto;
+  margin-top: 200px;
+  margin-bottom: 160px; }

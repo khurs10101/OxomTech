@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>OxomTech</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        
+        <!--Designing the navbar -->
+        <!-- Creating toggleable navbar -->
+                    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                        <div class="container">
+                            
+                            <a class="navbar-brand" href="#">OxomTech</a>
+                            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nvCollapse">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="nvCollapse">
+                            <ul class="nav navbar-nav ml-auto justify-content-center">
+                                <!--<li class="nav-item mx-3 active"><a class="nav-link" href="#">Home</a></li>-->
+                                <!--<li class="nav-item mx-3"><a class="nav-link" href="admin_login.html">About</a></li>-->
+                                <!--<li class="nav-item mx-3"><a class="nav-link" href="#services-section">Services</a></li>-->
+                                <!--<li class="nav-item mx-3"><a class="nav-link" href="admin_login.html">Admin Login</a></li>-->
+                            </ul>
+                            </div>
+                        
+                        </div>
+                    
+                    </nav>
+            <!-- navbar ends -->
+            
+            <!-- SECTION HOME MAIN-->
+            <!-- Main carousel-->
+            <section id="showcase">
+               <div id="wrapper-showcase"> 
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                
+            <!-- Hiding the indicator -->    
+           <!--        <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"> </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"> </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"> </li>
+                    </ol>  -->
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel-image-1 active">
+                           <div class="dark-overlay">
+                            <div class="container">
+                               <div class="row">
+                                  
+                                   <div class="col col-lg-8 prelaunch-content">
+                                    <h2 class="display-3 text-center text-primary text-md-left mt-5 thin-font">Prelaunch Offer</h2>
+                                    
+                                     <div class="d-flex flex-row mt-3 ">
+                                         <div class="p4 align-self-right d-none d-md-block">
+                                             <i class="fa fa-check"></i>
+                                         </div>
+                                         <div class="p4 align-self-end ml-3 text-justify">
+                                            <p>As a part of our prelaunch offer we will provide free of cost service to all
+                                             the non-profit NGOs and other such organization.</p>
+                                         </div>
+                                     </div>
+                                     <a class="btn btn-outline-primary d-md-none d-block mt-5 mx-3 know-more-button" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+                                     <div class="content-wrapper d-none d-md-block">
+                                     <div class="d-flex flex-row mt-3">
+                                         <div class="p4 align-self-right">
+                                             <i class="fa fa-check"></i>
+                                         </div>
+                                         <div class="p4 align-self-end ml-3">
+                                             <p>As india is moving toward digital era we dont want those organization to left behind who are doing good to the society</p>
+                                         </div>
+                                     </div>
+                                     <div class="d-flex flex-row mt-3">
+                                         <div class="p4 align-self-right">
+                                             <i class="fa fa-check"></i>
+                                         </div>
+                                         <div class="p4 align-self-end ml-3">
+                                             <p>We will provide all the digital solutions like website, android app, branding and campaigning etc. </p>
+                                         </div>
+                        
+                                     </div>
+                                     
+                                     <div class="d-flex d-none d-md-block">
+                                         <a class="btn btn-outline-primary btn-block d-lg-none mt-3 know-more-button" data-toggle="modal" data-target="#contactModal">Contact Us</a> 
+                                     </div>
+                                   </div>
+                                    
+                                   </div>
+                                   <div class="col-lg-4">
+                                    
+                                        <div class="card bg-primary card-form text-center mt-5 card-inverse d-none d-lg-block">
+                                            <div class="card-block">
+                                                <h3>Contact Us</h3>
+                                                <p>Please fillup the form<br>We will get back to you</p>
+                                                <form id="contact_us1" class="form" action="contact_us.php" method="post">
+                                                    <div class="form-group">
+                                                        <input data-validation="length" data-validation-length="min4" type="text" name="name" class="form-control form-control-lg" placeholder="Name" />
+                                                    </div>
+                                                     <div class="form-group">
+                                                        <input data-validation="length" data-validation-length="min3" type="text" name="comp-name" class="form-control form-control-lg" placeholder="Company Name" />
+                                                    </div>
+                                                     <div class="form-group">
+                                                        <input data-validation="number" data-validation="length" data-validation-length="min10" type="text" name="mobile-no" class="form-control form-control-lg" placeholder="Mobile Number" />
+                                                    </div>
+                                                     <div class="form-group">
+                                                        <input data-validation="email" type="email" name="email" class="form-control form-control-lg" placeholder="Email" />
+                                                    </div>
+                                                    <input type="submit" name="submit" value="submit" class="btn btn-lg btn-dark btn-block submit-bn"/>
+                                                </form>
+                                            </div>
+                                        </div>
+                                   
+                                   </div>
+                                   
+                               </div>
+                            <!--    <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                   <h1 class="display-3">Lorem ipsum dolor.</h1>
+                                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!</p>
+                                    <a href="#" class="btn btn-primary btn-lg">Lorem ipsum.</a> 
+                                </div> -->
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Carousel item for future expansion -->
+                        <!--
+                           <div class="carousel-item carousel-image-2">
+                           <div class="dark-overlay">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                   <h1 class="display-3">Lorem ipsum dolor.</h1>
+                                   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!</p>
+                                   <a href="#" class="btn btn-warning btn-lg">Lorem ipsum.</a>  
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-image-3">
+                           <div class="dark-overlay">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                   <h1 class="display-3">Lorem ipsum dolor.</h1>
+                                   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!</p>
+                                   <a href="#" class="btn btn-success btn-lg">Lorem ipsum.</a>  
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    
+                   <!-- 
+                    <a class="carousel-control-prev" href="#carousel-example-generic" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next" href="#carousel-example-generic" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    -->
+                </div>
+                </div>
+                <!-- Carousel Ends-->
+                
+            </section>
+        
+          <!--SECTION 2-->
+           <section id="#about-us-section" style="background-color: black">
+               <div class="container py-4">
+                   <div class="row">
+                       <div class="col-lg-6 d-lg-block d-none text-center">
+                          <img style="width: 450px; height: 250px;" class="img-fluid d-none d-md-block rounded-circle" src="img/AboutUsSmall.jpeg" alt="business"> 
+                       </div>
+                       <div class="col-lg-6 px-3 text-center text-lg-left">
+                           <h1 class="display-3 thin-font">Who We Are</h1>
+                           <p class="text-center text-lg-left thin-font">We are an IT company whose aim is to provide tools expertise and solution to your businesses so that you can take your business to the next level. Our team members comprises of highly skilled developers with experience in highly evolving tech industry</p>
+                       </div>
+                   </div>
+               </div>
+           </section>
+        <!--SECTION 2 ENDS-->
+        
+         <!-- SECTION 3-->
+         <!--
+        <section id="services-section">
+               <div class="container pt-4">
+                   <div class="row">
+                       <div class="col-lg-6 text-center text-lg-left">
+                           <h1 class="display-3">Services</h1>
+                           <p class="text-center text-lg-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officiis, ea atque sint voluptates veniam quaerat nihil odio maiores aperiam adipisci neque, dolore autem harum voluptate delectus, inventore magni nostrum. Quasi est eius magnam reprehenderit?</p>
+                       </div>
+                       <div class="col-lg-6 d-lg-block d-none text-center px-3">
+                           <img style="width: 450px; height: 250px;" class="img-fluid d-none d-md-block rounded-circle" src="img/ServicesSmall.jpeg" alt="business"> 
+                       </div>
+                   </div>
+               </div>
+           </section>   
+           -->
+           <!-- SECTION 3 ENDS-->  
+       
+       <!--SECTION 4-->
+        <section id="services-grid-section" class="" style="background-color: white" >
+          <h1 class="display-3 text-center text-dark thin-font">What We Offer</h1>
+           <div class="container">
+               <div class="row pt-3">
+                   <div class="col-md-4 mb-3  text-center text-justify ">
+                     <div class="card p-3">
+                      <i class="fa fa-android"></i>
+                      <div class="card-block">
+                      <h3 class="thin-font">App Devlopment</h3>
+                      <p class="thin-font">Today most of the top businesses are on mobile app so why you are left behind. Make your first android app for your business with us.</p>
+                      </div>
+                       </div> 
+                   </div>
+                    <div class="col-md-4 mb-3  text-center  ">
+                      <div class="card p-3">
+                       <i class="fa fa-html5"></i>
+                        <h3 class="thin-font">Web Development</h3>
+                      <p class="thin-font">Website is your business identity, brand and reputation. Nowdays having website for your business is default and indespensible for your business to grow.</p>
+                      </div>
+                   </div>
+                    <div class="col-md-4 mb-3  text-center ">
+                      <div class="card p-3">
+                       <i class="fa fa-gears"></i>
+                        <h3 class="thin-font">Desktop Software</h3>
+                      <p class="thin-font">We provide customized software for all your need. Our team has good expertize in developing database driven scalable software.</p>
+                      </div>
+                   </div>
+                </div>
+                
+            <!-- Second Card row for future expansion-->        
+            <!--       <div class="row pt-3">
+                   <div class="col-md-4 mb-3 text-center">
+                     <div class="card p-3">
+                      <i class="fa fa-gear"></i>
+                       <h3>Lorem ipsum dolor.</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, iure rem explicabo sequi! Sapiente, odit!</p>
+                      </div> 
+                   </div>
+                    <div class="col-md-4 mb-3  text-center">
+                      <div class="card p-3">
+                       <i class="fa fa-area-chart"></i>
+                        <h3>Lorem ipsum dolor.</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, iure rem explicabo sequi! Sapiente, odit!</p>
+                      </div>
+                   </div>
+                    <div class="col-md-4 mb-3 text-center">
+                      <div class="card p-3">
+                       <i class="fa fa-linux"></i>
+                        <h3>Lorem ipsum dolor.</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, iure rem explicabo sequi! Sapiente, odit!</p>
+                      </div>
+                   </div>   
+                </div>    -->
+           </div>
+        </section>
+        <!-- SECTION 4 ENDS-->
+        
+        <!--FOOTER SECTION-->
+        <footer class="text-muted">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center text-md-left">
+                       <div class="mt-4" id="social-icon">
+                           <i class="fa fa-facebook-square"></i>
+                           <i class="fa fa-instagram"></i>
+                           <i class="fa fa-twitter-square"></i>
+                           <i class="fa fa-google-plus-square"></i>
+                       </div> 
+                    </div>
+                    
+                    <div class="col-md-4"></div>
+                    
+                    <!-- Work for JOAN AHMED -->
+                    <div class="col-md-4 text-center text-md-left">
+                       <div class="copyright mt-4 ml-2" >
+						&copy; oxomlab. All Rights Reserved.
+                        <div class="credits">
+                        	<a class="" href="admin_login.html"><i class="fa fa-sign-in" aria-hidden="true"> Admin Login</i></a>
+                        </div>
+					</div> 
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        <!--FOOTER SECTION ENDS-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- post modal area-->
+        <div class="modal fade" id="contactModal">
+            
+            <div class="modal-dialog modal-lg">
+                
+                <div class="modal-content">
+                    
+                    <div class="modal-header bg-primary text-white">
+                        
+                        <h5 class="modal-title" id="addPostModalLabel">
+                            Contact Us
+                        </h5>
+                        <button class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                        
+                    </div>
+                    
+                                                <form id="contact_us" class="form mt-3 mb-3" action="contact_us.php" method="post">
+                                                    <div class="form-group px-2">
+                                                        <input data-validation="length" data-validation-length="min4" type="text" name="name" class="form-control px-2" placeholder="Name" />
+                                                    </div>
+                                                     <div class="form-group px-2">
+                                                        <input data-validation="length" data-validation-length="min3" type="text" name="comp-name" class="form-control px-2 " placeholder="Company Name" />
+                                                    </div>
+                                                     <div class="form-group px-2">
+                                                        <input data-validation="number" type="text" name="mobile-no" class="form-control px-2 " placeholder="Mobile Number" />
+                                                    </div>
+                                                     <div class="form-group px-2">
+                                                        <input data-validation="email" type="email" name="email" class="form-control px-2 " placeholder="Email" />
+                                                    </div>
+                                                    <div class="px-2">
+                                                    <input type="submit" name="submit" value="submit" class="btn btn-dark btn-block submit-bn px-2"/>
+                                                    </div>
+                                                </form>
+                    
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+            
+            
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/form-validator/jquery.form-validator.min.js"></script> 
+        <!--JQuery and Javascript Code -->
+        <script>
+              $.validate({
+                  form : '#contact_us, #contact_us1'
+                });
+        </script>
+           
+    </body>
+</html>

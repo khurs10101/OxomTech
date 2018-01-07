@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login Panel</title>
+     <!-- Bootstrap CSS -->
+        
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Ends -->
+<!--  -->
+</head>
+
+<body class="admin-body">
+    
+             <header>
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                        <div class="container">
+                            
+                            <a class="navbar-brand" href="index.html">OxomLAB</a>
+                            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nvCollapse">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="nvCollapse">
+                            <ul class="nav navbar-nav ml-auto justify-content-center">
+                                <li class="nav-item mx-3 active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item mx-3"><a class="nav-link" href="admin_login.html">About</a></li>
+                                <li class="nav-item mx-3"><a class="nav-link" href="#services-section">Services</a></li>
+                                <li class="nav-item mx-3"><a class="nav-link" href="admin_login.html">Admin Login</a></li>
+                            </ul>
+                            </div>
+                        
+                        </div>
+                    
+                    </nav>
+             </header>
+             
+             <div class="login-area">
+                 <form class="form" method="post" action="admin_transient.php">
+                     <div class="form-group">
+                         <input type="text" name="userid" class="form-control form-control-lg" placeholder="Admin userid"/>
+                     </div>
+                      <div class="form-group mt-2">
+                         <input type="password" name="password" class="form-control form-control-lg" placeholder="password"/>
+                     </div>
+                 
+                  <div class="input-submit mt-4">
+                   <input type="submit" name="submit" class="btn btn-primary btn-block btn-lg"/>
+                   </div>
+                 </form> 
+                 </div>
+    
+   
+             
+             
+            <footer class="text-muted about-footer fixed-bottom bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center text-md-left">
+                       <div class="mt-4" id="social-icon">
+                           <i class="fa fa-facebook-square"></i>
+                           <i class="fa fa-instagram"></i>
+                           <i class="fa fa-twitter-square"></i>
+                           <i class="fa fa-google-plus-square"></i>
+                       </div> 
+                    </div>
+                    
+                    <div class="col-md-4"></div>
+                    
+                    <!-- Work for JOAN AHMED -->
+                    <div class="col-md-4 text-center text-md-left">
+                       <div class="copyright mt-4 ml-2" >
+						&copy; oxomlab. All Rights Reserved.
+					</div> 
+                    </div>
+                </div>
+            </div>
+            </footer>
+             
+            <!-- Essential JS Scripts--> 
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/tether.min.js"></script>
+            <!--Ends -->
+    
+    </body>
+</html>
